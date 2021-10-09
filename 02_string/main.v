@@ -4,7 +4,7 @@ fn main () {
 	base_string3()
 	base_string4()
 	base_string5()
-	base_string6()	
+	base_string6()
 }
 
 fn base_string1 () {
@@ -19,7 +19,7 @@ fn base_string2 () {
 	country := 'Netherlands'
 	println(country[0].ascii_str())
 
-	rocket := `🚀`
+	rocket := '🚀'
 	println(rocket)
 }
 
@@ -33,7 +33,7 @@ fn base_string4 () {
 	name := 'Bob'
 	boddy := name + 'by'
 	println(boddy)
-	
+
 	a := 0x7b
 	println(a.str())
 	println('a = $a')
